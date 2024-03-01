@@ -1,0 +1,52 @@
+@use '../abstracts' as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a,
+span,
+select,
+label {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea,
+select {
+  font-family: $primary-font;
+  width: 100%;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-family: inherit;
+}

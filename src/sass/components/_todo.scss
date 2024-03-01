@@ -3,11 +3,14 @@
 .todo-container {
   background-color: var(--clr-neutral-300);
   position: relative;
-  box-shadow: 0px 0px 7px 2px #00000040;
+  box-shadow: 4px 8px 4px 0px rgba(0, 0, 0, 0.1);
+  z-index: 100;
 
   .user-info {
     @include flex(flex-start, justify-start);
     background-color: var(--clr-primary-100);
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+
     color: var(--clr-neutral-100);
     gap: 1rem;
     padding: 1.3rem 1.7rem;
